@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rafael Gonzaga - ML Portfolio Homepage</title>
+
+  <!-- Tailwind CSS (build local) -->
+  <link href="dist/output.css" rel="stylesheet" />
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    rel="stylesheet"
+  />
+
+  <style>
+    body { font-family: "Inter", sans-serif; }
+    .material-symbols-outlined {
+      font-variation-settings:
+        "FILL" 0,
+        "wght" 400,
+        "GRAD" 0,
+        "opsz" 24;
+    }
+  </style>
+</head>
+
+<body class="bg-background-light text-text-main antialiased font-display">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+
+<!-- ================= HEADER ================= -->
+<header class="sticky top-0 z-50 w-full border-b border-[#e7edf3] bg-white/80 backdrop-blur-md">
+  <div class="px-6 md:px-12 lg:px-40 flex justify-center">
+    <div class="flex w-full max-w-[960px] items-center justify-between py-4">
+      <div class="flex items-center gap-3">
+        <div class="flex size-8 items-center justify-center rounded-lg bg-primary/10 text-primary">
+          <span class="material-symbols-outlined text-xl">terminal</span>
+        </div>
+        <h2 class="text-lg font-bold tracking-tight">Rafael Gonzaga</h2>
+      </div>
+
+      <nav class="hidden sm:flex items-center gap-8">
+        <a class="text-sm font-medium text-slate-600 hover:text-primary transition-colors" href="#work">Work</a>
+        <a class="text-sm font-medium text-slate-600 hover:text-primary transition-colors" href="#skills">Skills</a>
+        <a class="text-sm font-medium text-slate-600 hover:text-primary transition-colors" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main class="flex-grow flex flex-col items-center w-full px-6 md:px-12 lg:px-40 pb-20">
+<div class="w-full max-w-[960px] flex flex-col gap-16 pt-16">
+
+<!-- ================= HERO ================= -->
+<section class="flex flex-col gap-6 py-10">
+  <div class="max-w-3xl">
+    <h1 class="text-5xl md:text-6xl font-black tracking-tight mb-6 leading-[1.1]">
+      Machine Learning <br /> Software Engineer.
+    </h1>
+
+    <p class="text-xl text-text-secondary leading-relaxed max-w-2xl">
+      Specializing in building scalable AI systems and production-grade ML infrastructure.
+      Turning research into reliable, high-performance software.
+    </p>
+  </div>
+
+  <div class="flex gap-4 pt-2">
+    <a
+      href="#contact"
+      class="inline-flex h-10 items-center justify-center rounded-lg bg-primary px-6 text-sm font-medium text-white hover:bg-blue-600 transition-colors"
+    >
+      Get in Touch
+    </a>
+
+    <a
+      href="#work"
+      class="inline-flex h-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent px-6 text-sm font-medium hover:bg-slate-50 transition-colors"
+    >
+      View Work
+    </a>
+  </div>
+</section>
+
+<!-- ================= FEATURED WORK ================= -->
+<section id="work" class="flex flex-col gap-8">
+  <div class="border-b border-slate-200 pb-4">
+    <h2 class="text-2xl font-bold tracking-tight">Featured Work</h2>
+  </div>
+
+  <!-- Project 1 -->
+  <article class="group relative flex flex-col md:flex-row overflow-hidden rounded-xl border border-slate-200 bg-white transition-all hover:border-slate-300">
+    <div class="w-full md:w-2/5 h-64 md:h-auto bg-slate-100 relative overflow-hidden">
+      <div
+        class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+        style="background-image:url('https://lh3.googleusercontent.com/aida-public/AB6AXuAvhKvILjJEpIzXnXPDp_hgru1eZHDb-PQpZ3VP4Pjwx0pymkxY0uWgqniyOTOzYasxNxLuXW90rHJ0qo50gKbepoAzq-cJZuPnTUzazxKyukZU_hvgMfTnUI0jqdBNZMESe_WQMbbN-QGoUAsdZmgrk5ZU2D_C3n1QIcitpuxrXPa8h-TquzMJWPHY00COTNw2uslydL3RPll1PdbMNCVOw5o557ICsIrT2EkvGx0cTa0Xtne8wfDV3vUHvjYKZur56z6qwfEFRz8');">
+      </div>
+    </div>
+
+    <div class="flex flex-1 flex-col justify-between p-6 md:p-8">
+      <div>
+        <h3 class="text-xl font-bold mb-2">ML End-to-End in Production</h3>
+        <p class="text-text-secondary mb-6 leading-relaxed max-w-xl">
+          A comprehensive system for deploying and monitoring ML models at scale.
+          Built a custom Kubernetes operator to manage model lifecycle, reducing
+          deployment time by 60% and ensuring 99.9% uptime for inference services.
+        </p>
+
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">Python</span>
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">Kubernetes</span>
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">TensorFlow</span>
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">Docker</span>
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">Prometheus</span>
+        </div>
+      </div>
+
+      <button class="text-primary font-medium text-sm flex items-center group-hover:underline">
+        View Case Study
+        <span class="material-symbols-outlined ml-1 transition-transform group-hover:translate-x-1">
+          arrow_forward
+        </span>
+      </button>
+    </div>
+  </article>
+
+  <!-- Project 2 -->
+  <article class="group relative flex flex-col md:flex-row overflow-hidden rounded-xl border border-slate-200 bg-white transition-all hover:border-slate-300">
+    <div class="w-full md:w-2/5 h-64 md:h-auto bg-slate-100 relative overflow-hidden">
+      <div
+        class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+        style="background-image:url('https://lh3.googleusercontent.com/aida-public/AB6AXuAafNfTlQClPipIjZouyXgva6i_5ztV18G7Jo0Qm07EG_oa_3yI5U8dNbOsDGCFM7b2Sm-7RctKPJCUK2FgwfzYdcMXZs8luvJ7YyvV_WTEwBYvm2qRPbyUaJKNGqEbVg9bm8PHdAXq8OfLU7ezjlmWWdNOPmEji6scMEYQzzNmMQV854dcNLy91d9Ma7VcSKK0_Loj4d6gYdFXRKhkuu6GkxnWlIFIJe9_oZvEAOtdiCE4MP7WNM5WcO2QMR_AdFIZtwUhJojsUWQ');">
+      </div>
+    </div>
+
+    <div class="flex flex-1 flex-col justify-between p-6 md:p-8">
+      <div>
+        <h3 class="text-xl font-bold mb-2">AI Agent in Production</h3>
+        <p class="text-text-secondary mb-6 leading-relaxed max-w-xl">
+          Developed an autonomous AI agent capable of executing complex multi-step tasks.
+          Integrated LLMs with vector databases for semantic search and long-term memory.
+        </p>
+
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">LLMs</span>
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">LangChain</span>
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">Pinecone</span>
+          <span class="inline-flex rounded-md bg-slate-100 px-2.5 py-0.5 text-xs font-medium">FastAPI</span>
+        </div>
+      </div>
+
+      <button class="text-primary font-medium text-sm flex items-center group-hover:underline">
+        View Case Study
+        <span class="material-symbols-outlined ml-1 transition-transform group-hover:translate-x-1">
+          arrow_forward
+        </span>
+      </button>
+    </div>
+  </article>
+</section>
+
+<!-- ================= OTHER PROJECTS ================= -->
+<section class="flex flex-col gap-6">
+  <div class="border-b border-slate-200 pb-4">
+    <h2 class="text-xl font-bold tracking-tight">Other Projects</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="rounded-lg border border-slate-200 bg-white p-6 hover:shadow-sm transition-shadow">
+      <h3 class="font-bold mb-2">SaaS Analytics Dashboard</h3>
+      <p class="text-sm text-text-secondary mb-4">
+        Full stack React application with Node.js backend for visualizing real-time user metrics.
+      </p>
+      <div class="text-xs text-slate-500 font-mono">React • Node.js • PostgreSQL</div>
+    </div>
+
+    <div class="rounded-lg border border-slate-200 bg-white p-6 hover:shadow-sm transition-shadow">
+      <h3 class="font-bold mb-2">Fitness Tracker iOS</h3>
+      <p class="text-sm text-text-secondary mb-4">
+        Native iOS application utilizing HealthKit and CoreML.
+      </p>
+      <div class="text-xs text-slate-500 font-mono">Swift • SwiftUI • CoreML</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="flex flex-col gap-8">
+  <div class="border-b border-slate-200 pb-4">
+    <h2 class="text-2xl font-bold tracking-tight">Technical Skills</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+    <ul class="space-y-3">
+      <li class="flex justify-between items-center p-3 rounded-lg bg-slate-50 border">
+        <span>Python & PyTorch</span><span class="text-xs text-slate-400">Expert</span>
+      </li>
+      <li class="flex justify-between items-center p-3 rounded-lg bg-slate-50 border">
+        <span>Docker & Kubernetes</span><span class="text-xs text-slate-400">Advanced</span>
+      </li>
+      <li class="flex justify-between items-center p-3 rounded-lg bg-slate-50 border">
+        <span>AWS & GCP</span><span class="text-xs text-slate-400">Advanced</span>
+      </li>
+      <li class="flex justify-between items-center p-3 rounded-lg bg-slate-50 border">
+        <span>SQL & NoSQL</span><span class="text-xs text-slate-400">Proficient</span>
+      </li>
+    </ul>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div class="border rounded-lg p-4">
+        <span class="material-symbols-outlined text-primary">precision_manufacturing</span>
+        <h4 class="font-bold mt-2">MLOps</h4>
+        <p class="text-xs text-text-secondary">Automating ML lifecycles.</p>
+      </div>
+      <div class="border rounded-lg p-4">
+        <span class="material-symbols-outlined text-primary">architecture</span>
+        <h4 class="font-bold mt-2">System Design</h4>
+        <p class="text-xs text-text-secondary">Scalable distributed systems.</p>
+      </div>
+      <div class="border rounded-lg p-4">
+        <span class="material-symbols-outlined text-primary">speed</span>
+        <h4 class="font-bold mt-2">Optimization</h4>
+        <p class="text-xs text-text-secondary">Low-latency inference.</p>
+      </div>
+      <div class="border rounded-lg p-4">
+        <span class="material-symbols-outlined text-primary">security</span>
+        <h4 class="font-bold mt-2">AI Safety</h4>
+        <p class="text-xs text-text-secondary">Robustness and reliability.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+ 
+<footer class="mt-12 py-10 border-t border-slate-200 dark:border-slate-800" id="contact">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2">
+<span class="text-sm font-semibold text-text-main dark:text-white">Rafael Gonzaga</span>
+<span class="text-xs text-slate-500">© 2024</span>
+</div>
+<div class="flex items-center gap-8">
+<a class="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="#">
+                                GitHub
+                                <span class="material-symbols-outlined text-base">arrow_outward</span>
+</a>
+<a class="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="#">
+                                LinkedIn
+                                <span class="material-symbols-outlined text-base">arrow_outward</span>
+</a>
+<a class="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="mailto:hello@example.com">
+                                Email
+                                <span class="material-symbols-outlined text-base">mail</span>
+</a>
+</div>
+</div>
+</footer>
