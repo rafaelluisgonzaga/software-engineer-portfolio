@@ -6,15 +6,40 @@ module.exports = {
     extend: {
       colors: {
         primary: "#2b8cee",
-        "background-light": "#ffffff",
-        "background-dark": "#101922",
-        "text-main": "#0d141b",
-        "text-secondary": "#4c739a",
+
+        surface: {
+          DEFAULT: "#ffffff",     // cards, blocos
+          dark: "#0f172a",        // slate-900 feel
+        },
+
+        background: {
+          DEFAULT: "#ffffff",     // body
+          dark: "#101922",
+        },
+
+        border: {
+          DEFAULT: "#e5e7eb",     // slate-200
+          dark: "#1f2937",        // slate-800
+        },
+
+        text: {
+          main: "#0d141b",
+          secondary: "#4c739a",
+          dark: "#e5e7eb",
+          muted: "#9ca3af",
+        },
+
+        tag: {
+          DEFAULT: "#f1f5f9",     // slate-100
+          dark: "#1e293b",        // slate-800
+        },
       },
+
       fontFamily: {
         display: ["Inter", "sans-serif"],
         sans: ["Inter", "sans-serif"],
       },
+
       borderRadius: {
         DEFAULT: "0.25rem",
         lg: "0.5rem",
