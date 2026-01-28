@@ -1,0 +1,146 @@
+{
+  "pt-BR": {
+    "nav": {
+      "work": "Projetos",
+      "skills": "Habilidades",
+      "contact": "Contato"
+    },
+
+    "hero": {
+      "titleLine1": "Engenheiro de Software",
+      "titleLine2": "Software Engineer.",
+      "subtitle": "Especializado em construir sistemas de IA escaláveis e infraestrutura de ML pronta para produção. Transformando pesquisa em software confiável e de alta performance.",
+      "ctaPrimary": "Entrar em Contato",
+      "ctaSecondary": "Ver Projetos"
+    },
+
+    "featuredWork": {
+      "title": "Projetos em Destaque",
+
+      "cta": "Ver Estudo de Caso",
+
+      "project1": {
+        "title": "ML de Ponta a Ponta em Produção",
+        "description": "Sistema completo para deploy e monitoramento de modelos de Machine Learning em escala."
+      },
+
+      "project2": {
+        "title": "Agente de IA em Produção",
+        "description": "Agente de IA autônomo capaz de executar tarefas complexas em múltiplas etapas, com busca semântica e memória de longo prazo."
+      }
+    },
+
+    "otherProjects": {
+      "title": "Outros Projetos",
+      "project1": {
+        "title": "Dashboard de Analytics SaaS",
+        "description": "Aplicação full stack para visualização de métricas de usuários em tempo real."
+      },
+      "project2": {
+        "title": "App iOS de Fitness",
+        "description": "Aplicação iOS nativa utilizando HealthKit e CoreML."
+      }
+    },
+
+   "skills": {
+  "title": "Competências Técnicas",
+
+  "mlops": {
+    "title": "MLOps",
+    "description": "Automação do ciclo de vida de Machine Learning."
+  },
+
+  "optimization": {
+    "title": "Otimização",
+    "description": "Inferência de baixa latência."
+  },
+
+  "aiSafety": {
+    "title": "Segurança em IA",
+    "description": "Robustez e confiabilidade dos sistemas."
+  },
+
+  "levels": {
+    "expert": "Especialista",
+    "advanced": "Avançado",
+    "proficient": "Proficiente"
+  }
+},
+
+    "footer": {
+      "copyright": "© 2024 Rafael Gonzaga"
+    }
+  },
+
+  "en": {
+    "nav": {
+      "work": "Work",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+
+    "hero": {
+      "titleLine1": "Machine Learning",
+      "titleLine2": "Software Engineer.",
+      "subtitle": "Specializing in building scalable AI systems and production-grade ML infrastructure. Turning research into reliable, high-performance software.",
+      "ctaPrimary": "Get in Touch",
+      "ctaSecondary": "View Work"
+    },
+
+    "featuredWork": {
+      "title": "Featured Work",
+       "cta": "View Case Study",
+
+      "project1": {
+        "title": "End-to-End ML in Production",
+        "description": "A comprehensive system for deploying and monitoring machine learning models at scale."
+      },
+
+      "project2": {
+        "title": "AI Agent in Production",
+        "description": "An autonomous AI agent capable of executing complex multi-step tasks with semantic search and long-term memory."
+      }
+    },
+
+    "otherProjects": {
+      "title": "Other Projects",
+      "project1": {
+        "title": "SaaS Analytics Dashboard",
+        "description": "Full stack application for visualizing real-time user metrics."
+      },
+      "project2": {
+        "title": "iOS Fitness App",
+        "description": "Native iOS application using HealthKit and CoreML."
+      }
+    },
+
+     "skills": {
+  "title": "Technical Skills",
+
+  "mlops": {
+    "title": "MLOps",
+    "description": "Automating machine learning lifecycles."
+  },
+
+  "optimization": {
+    "title": "Optimization",
+    "description": "Low-latency inference."
+  },
+
+  "aiSafety": {
+    "title": "AI Safety",
+    "description": "System robustness and reliability."
+  },
+
+  "levels": {
+    "expert": "Expert",
+    "advanced": "Advanced",
+    "proficient": "Proficient"
+  }
+},
+
+    "footer": {
+      "copyright": "© 2024 Rafael Gonzaga"
+    }
+  }
+}
