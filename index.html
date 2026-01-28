@@ -70,8 +70,8 @@
         <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" data-i18n="nav.work"></a>
         <a class="text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors" data-i18n="nav.skills"></a>
         <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" data-i18n="nav.contact"></a>
-        <button onclick="setLang('pt-BR')">PT</button>
-<button onclick="setLang('en')">EN</button>
+        <button id="lang-toggle" class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" aria-label="Toggle language">EN</button>
+      
       </nav>
     </div>
   </div>
@@ -299,12 +299,34 @@
     location.reload();
   }
 
+  
+
   document.addEventListener("DOMContentLoaded", loadI18n);
 </script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const langToggle = document.getElementById("lang-toggle");
 
+    function updateLangLabel() {
+      const lang = localStorage.getItem("lang") || "pt-BR";
 
+      // mostra PARA QUAL idioma vai traduzir
+      langToggle.textContent =
+        lang === "pt-BR" ? "Translate 🇺🇸" : "Traduzir 🇧🇷";
+    }
 
+    langToggle.addEventListener("click", () => {
+      const current = localStorage.getItem("lang") || "pt-BR";
+      const next = current === "pt-BR" ? "en" : "pt-BR";
+
+      localStorage.setItem("lang", next);
+      location.reload();
+    });
+
+    updateLangLabel();
+  });
+</script>
 
 </section>
 
