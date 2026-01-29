@@ -1,76 +1,76 @@
 {
-  "pt-BR": {
-    "nav": {
-      "work": "Projetos",
-      "skills": "Habilidades",
-      "contact": "Contato"
+"pt-BR": {
+  "nav": {
+    "work": "Projetos",
+    "skills": "Habilidades",
+    "contact": "Contato"
+  },
+
+  "hero": {
+    "titleLine1": "Engenheiro de Software",
+    "titleLine2": "Python, ML & AI.",
+    "subtitle": "Engenheiro de Software com foco em Machine Learning e IA em produção. Especializado em soluções end-to-end, do dado ao deploy, construindo APIs em Python, pipelines de ML e sistemas escaláveis orientados a produto.",
+    "ctaPrimary": "Entrar em Contato",
+    "ctaSecondary": "Ver Projetos"
+  },
+
+  "featuredWork": {
+    "title": "Projetos em Destaque",
+    "cta": "Ver Estudo de Caso",
+
+    "project1": {
+      "title": "ML End-to-End em Produção",
+      "description": "Sistema completo de Machine Learning cobrindo EDA, pré-processamento, treinamento, avaliação e deploy de modelo via API REST, com foco em dados reais, validação de schema e resolução de training–serving skew."
     },
 
-    "hero": {
-      "titleLine1": "Engenheiro de Software",
-      "titleLine2": "Software Engineer.",
-      "subtitle": "Especializado em construir sistemas de IA escaláveis e infraestrutura de ML pronta para produção. Transformando pesquisa em software confiável e de alta performance.",
-      "ctaPrimary": "Entrar em Contato",
-      "ctaSecondary": "Ver Projetos"
+    "project2": {
+      "title": "Agente de IA em Produção",
+      "description": "Agente inteligente integrado a sistemas externos, com processamento de linguagem natural, memória contextual, execução de ações automatizadas e arquitetura orientada a produção."
+    }
+  },
+
+  "otherProjects": {
+    "title": "Outros Projetos",
+
+    "project1": {
+      "title": "Radar Rate iOS App",
+      "description": "Durante o Santander Bootcamp 2023 - Mobile iOS na DIO, desenvolvi um app de câmbio com orientação do professor Robson. Esse projeto foi essencial para meu aprendizado em arquitetura MVVM e programação reativa com Combine, usando SwiftUI para criar interfaces fluidas e modernas."
     },
 
-    "featuredWork": {
-      "title": "Projetos em Destaque",
+    "project2": {
+      "title": "FórumHub API - Java",
+      "description": "Uma aplicação robusta desenvolvida em Spring Boot para gerenciar tópicos em um fórum online. Esta API permite que os usuários criem, visualizem, atualizem e excluam tópicos, proporcionando uma plataforma eficiente para discussão e compartilhamento de conhecimento. Além disso, a autenticação de usuários garante que apenas usuários autorizados possam acessar e manipular os dados de forma segura."
+    }
+  },
 
-      "cta": "Ver Estudo de Caso",
-
-      "project1": {
-        "title": "ML de Ponta a Ponta em Produção",
-        "description": "Sistema completo para deploy e monitoramento de modelos de Machine Learning em escala."
-      },
-
-      "project2": {
-        "title": "Agente de IA em Produção",
-        "description": "Agente de IA autônomo capaz de executar tarefas complexas em múltiplas etapas, com busca semântica e memória de longo prazo."
-      }
-    },
-
-    "otherProjects": {
-      "title": "Outros Projetos",
-      "project1": {
-        "title": "Dashboard de Analytics SaaS",
-        "description": "Aplicação full stack para visualização de métricas de usuários em tempo real."
-      },
-      "project2": {
-        "title": "App iOS de Fitness",
-        "description": "Aplicação iOS nativa utilizando HealthKit e CoreML."
-      }
-    },
-
-   "skills": {
-  "title": "Competências Técnicas",
+  "skills": {
+    "title": "Competências Técnicas",
 
   "mlops": {
-    "title": "MLOps",
-    "description": "Automação do ciclo de vida de Machine Learning."
+    "title": "Software Engineering",
+    "description": "Desenvolvimento de sistemas de software orientados a produto, com APIs, backend e integração de sistemas em produção."
   },
 
   "optimization": {
-    "title": "Otimização",
-    "description": "Inferência de baixa latência."
+    "title": "Machine Learning em Produção",
+    "description": "Soluções de Machine Learning end-to-end, do dado ao deploy, com foco em operação real."
   },
 
   "aiSafety": {
-    "title": "Segurança em IA",
-    "description": "Robustez e confiabilidade dos sistemas."
+    "title": "Otimização & Escalabilidade",
+    "description": "Sistemas eficientes e escaláveis, com atenção à inferência, dados inconsistentes e skew."
   },
 
-  "levels": {
-    "expert": "Especialista",
-    "advanced": "Avançado",
-    "proficient": "Proficiente"
+  "design": {
+    "title": "Confiabilidade de Sistemas",
+    "description": "Sistemas robustos e monitoráveis, com logs, métricas e manutenção contínua."
   }
-},
-
-    "footer": {
-      "copyright": "© 2024 Rafael Gonzaga"
-    }
+}
   },
+
+  "footer": {
+    "copyright": "© 2026 Rafael Gonzaga"
+},
 
   "en": {
     "nav": {
@@ -80,9 +80,9 @@
     },
 
     "hero": {
-      "titleLine1": "Machine Learning",
+      "titleLine1": "Python, ML & AI",
       "titleLine2": "Software Engineer.",
-      "subtitle": "Specializing in building scalable AI systems and production-grade ML infrastructure. Turning research into reliable, high-performance software.",
+      "subtitle": "Software Engineer focused on Machine Learning and AI in production. Specialized in end-to-end solutions, from data to deployment, building Python APIs, ML pipelines, and scalable, product-oriented systems.",
       "ctaPrimary": "Get in Touch",
       "ctaSecondary": "View Work"
     },
@@ -92,25 +92,25 @@
        "cta": "View Case Study",
 
       "project1": {
-        "title": "End-to-End ML in Production",
-        "description": "A comprehensive system for deploying and monitoring machine learning models at scale."
+        "title": "End-to-End Machine Learning in Production",
+        "description": "Complete Machine Learning system covering EDA, preprocessing, training, evaluation, and model deployment via REST API, with a strong focus on real-world data, schema validation, and resolving training–serving skew."
       },
 
       "project2": {
-        "title": "AI Agent in Production",
-        "description": "An autonomous AI agent capable of executing complex multi-step tasks with semantic search and long-term memory."
+        "title": "Production AI Agent",
+        "description": "Intelligent AI agent integrated with external systems, featuring natural language processing, contextual memory, automated action execution, and a production-oriented architecture."
       }
     },
 
     "otherProjects": {
       "title": "Other Projects",
       "project1": {
-        "title": "SaaS Analytics Dashboard",
-        "description": "Full stack application for visualizing real-time user metrics."
+        "title": "Radar Rate iOS App",
+        "description": "Developed during the Santander Bootcamp 2023 – Mobile iOS at DIO, this exchange rate app was built under the guidance of instructor Robson. The project was essential for learning the MVVM architecture and reactive programming with Combine, using SwiftUI to create fluid and modern user interfaces."
       },
       "project2": {
-        "title": "iOS Fitness App",
-        "description": "Native iOS application using HealthKit and CoreML."
+        "title": "ForumHub API – Java",
+        "description": "A robust application developed with Spring Boot to manage topics in an online forum. The API allows users to create, view, update, and delete topics, providing an efficient platform for discussion and knowledge sharing. User authentication ensures that only authorized users can securely access and manipulate the data."
       }
     },
 
@@ -118,18 +118,22 @@
   "title": "Technical Skills",
 
   "mlops": {
-    "title": "MLOps",
-    "description": "Automating machine learning lifecycles."
+    "title": "Software Engineering",
+    "description": "Product-oriented software development, including APIs, backend systems, and production system integration."
   },
 
   "optimization": {
-    "title": "Optimization",
-    "description": "Low-latency inference."
+    "title": "Machine Learning in Production",
+    "description": "End-to-end Machine Learning solutions, from data to deployment, focused on real-world operation."
   },
 
   "aiSafety": {
-    "title": "AI Safety",
-    "description": "System robustness and reliability."
+    "title": "Optimization & Scalability",
+    "description": "Efficient and scalable systems, with attention to inference performance, data inconsistencies, and skew."
+  },
+  "design": {
+    "title": "Systems Reliability",
+    "description": "Robust and observable systems, with logging, metrics, and continuous maintenance."
   },
 
   "levels": {
