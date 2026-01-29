@@ -1,3 +1,4 @@
+![Context Bias in Visual Recognition](cover/cover.png)
 # Rafael Gonzaga — Software Engineer
 
 Personal portfolio website showcasing projects and experience in
